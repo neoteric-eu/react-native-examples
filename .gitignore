@@ -2,6 +2,9 @@
 #
 .DS_Store
 
+#NPM
+.package-lock.json
+
 # Xcode
 #
 build/
@@ -62,3 +65,4 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+/ios/Podfile.lock
