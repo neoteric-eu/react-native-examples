@@ -8,22 +8,17 @@
  * @format
  */
 
-import React from 'react';
-import {
-    SafeAreaView,
-    StyleSheet,
-    ScrollView,
-    Text,
-    StatusBar,
-} from 'react-native';
+import React, {FC} from 'react';
+import {SafeAreaView, StyleSheet, ScrollView, StatusBar} from 'react-native';
+import FocusNextInputForm from './src/features/forms/focus-next-input-form';
 
-const App = () => {
+const App: FC = () => {
     return (
         <>
             <StatusBar barStyle="dark-content" />
             <SafeAreaView>
                 <ScrollView contentInsetAdjustmentBehavior="automatic">
-                    <Text testID="learnMore">IM LEARN MORE</Text>
+                    <FocusNextInputForm />
                 </ScrollView>
             </SafeAreaView>
         </>

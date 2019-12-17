@@ -13,7 +13,10 @@
     "e2e:android-release": "detox build --configuration android.emu.release && detox test --configuration android.emu.release -l verbose"
   },
   "dependencies": {
+    "@types/lodash": "^4.14.149",
+    "lodash": "^4.17.15",
     "react": "16.9.0",
+    "react-hook-form": "^3.29.3",
     "react-native": "0.61.5"
   },
   "devDependencies": {
@@ -117,7 +120,7 @@
     }
   },
   "prettier": {
-    "bracketSpacing": true,
+    "bracketSpacing": false,
     "jsxBracketSameLine": true,
     "singleQuote": true,
     "tabWidth": 4,
